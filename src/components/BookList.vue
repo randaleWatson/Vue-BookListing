@@ -2,7 +2,7 @@
     <div>
         <h1>{{title}}</h1>
         <ul>
-            <book-item :book="book" v-for="book in books">
+            <book-item :book="book" :key="book.title" v-for="book in books">
                 {{book.title}}:{{book.author}}
             </book-item>
         </ul>
