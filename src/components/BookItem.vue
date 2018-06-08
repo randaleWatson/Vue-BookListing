@@ -7,7 +7,7 @@ export default {
     props: ['book'],
     data: function() {
     }
-}
+};
 </script>
 <style>
     li {        

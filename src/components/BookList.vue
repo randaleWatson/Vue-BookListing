@@ -9,7 +9,7 @@
     </div>
 </template>
 <script>
-import BookItem from './BookItem'
+    import BookItem from './BookItem';
     export default {
         name: "BookList",
         components: {
@@ -25,7 +25,7 @@ import BookItem from './BookItem'
                 ]
             }
         }
-    }
+    };
 </script>
 <style>
     h1, h2 {
