@@ -4,9 +4,12 @@
     </div>
 </template>
 <script>
-    export default function data(){
-        return {
-            title: "All Books"
+    export default {
+        name: "BookList",
+        data: function(){
+            return {
+                title: "All Books"
+            }
         }
     }
 </script>
