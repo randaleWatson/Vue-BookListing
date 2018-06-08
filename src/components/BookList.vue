@@ -5,7 +5,9 @@
 </template>
 <script>
     export default function data(){
-        title: "All Books"
+        return {
+            title: "All Books"
+        }
     }
 </script>
 <style>
